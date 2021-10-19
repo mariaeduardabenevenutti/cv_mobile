@@ -9,6 +9,13 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+center{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+
+
+}
 
 h2{
     text-align: center;
@@ -54,12 +61,18 @@ span.psw {
 }
 
 /* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
+@media screen and (min-width: 780px) and (min-width: 1300px){
   span.psw {
      display: block;
      float: none;
   }
   .cancelbtn {
      width: 100%;
+  }
+  .center {
+      margin: auto;
+      width: 20%;
+      padding: 10%;
+
   }
 }
